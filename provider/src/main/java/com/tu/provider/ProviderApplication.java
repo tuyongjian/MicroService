@@ -8,6 +8,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * Created by len on 2018/8/8.
+ *
+ * 注册服务的提供者
+ * EnableDiscoveryClient 注解，使服务能够激活，
  */
 @EnableDiscoveryClient
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})

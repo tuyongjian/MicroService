@@ -19,6 +19,8 @@ public class HelloController{
 
 
         private final Logger logger = LoggerFactory.getLogger(HelloController.class);
+
+        //使用这个注解可以使服务能够被发现
         @Autowired
         private DiscoveryClient client;
 
