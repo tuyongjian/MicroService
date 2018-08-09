@@ -13,7 +13,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * EnableDiscoveryClient 注解，使服务能够激活，
  */
 @EnableDiscoveryClient
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
+@SpringBootApplication
 public class ProviderApplication {
 
     public static void main(String[] args) {
