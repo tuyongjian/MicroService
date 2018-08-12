@@ -39,6 +39,13 @@ public class HelloController{
 
     }
 
+    @RequestMapping(value = "getbook1",method = RequestMethod.GET)
+    public Book getbook1(){
+
+        return new Book("springboot",50,"spring","spring");
+    }
+
+
     @RequestMapping(value = "getbook2",method = RequestMethod.POST)
     public Book getbook2(@RequestBody Book book){
         return book;
